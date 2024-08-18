@@ -22,7 +22,7 @@
   margin-bottom: var(--mb-0-25);
 }
 
-.testimonial_description {
+.testimonial__description {
   font-size: var(--small-font-size);
 }
 
