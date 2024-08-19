@@ -9,9 +9,11 @@ const Header = () => {
     if (this.scrollY >= 80) header.classList.add("scroll-header");
     else header.classList.remove("scroll-header");
   });
+
   /*=======================Toggle Menu====================*/
   const [Toggle, showMenu] = useState(false);
   const [activeNav, setActiveNav] = useState("#home");
+
   return (
     <header className="header">
       <nav className="nav container">
@@ -96,12 +98,12 @@ const Header = () => {
             </li>
           </ul>
           <i
-            class="uil uil-times nav__close"
+            className="uil uil-times nav__close"
             onClick={() => showMenu(!Toggle)}
           ></i>
         </div>
         <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
-          <i class="uil uil-apps"></i>
+          <i className="uil uil-apps"></i>
         </div>
       </nav>
     </header>

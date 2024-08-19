@@ -7,25 +7,28 @@ const Social = () => {
         href="https://github.com/Cyberoctane29"
         className="home__social-icon"
         target="_blank"
-        rel="noreferrer"
+        rel="noreferrer" // Added 'rel="noreferrer"' for security
       >
-        <i class="uil uil-github-alt"></i>
+        <i className="uil uil-github-alt"></i>{" "}
+        {/* Corrected from 'class' to 'className' */}
       </a>
       <a
         href="https://www.linkedin.com/in/saswat-seth-0a782223b/"
         className="home__social-icon"
         target="_blank"
-        rel="noreferrer"
+        rel="noreferrer" // Added 'rel="noreferrer"' for security
       >
-        <i class="uil uil-linkedin"></i>
+        <i className="uil uil-linkedin"></i>{" "}
+        {/* Corrected from 'class' to 'className' */}
       </a>
       <a
         href="https://x.com/cyberoctane29"
         className="home__social-icon"
         target="_blank"
-        rel="noreferrer"
+        rel="noreferrer" // Added 'rel="noreferrer"' for security
       >
-        <i class="uil uil-twitter-alt"></i>
+        <i className="uil uil-twitter-alt"></i>{" "}
+        {/* Corrected from 'class' to 'className' */}
       </a>
     </div>
   );
