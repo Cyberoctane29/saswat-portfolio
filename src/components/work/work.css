@@ -44,6 +44,9 @@
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-0-5);
 }
+.work__title span {
+  display: block; /* Force the span to act like a block element */
+}
 
 .work__button {
   color: var(--text-color);

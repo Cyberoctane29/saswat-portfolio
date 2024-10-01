@@ -3,6 +3,7 @@ import Work2 from "../../assets/work2.jpg";
 import Work3 from "../../assets/work3.jpg";
 import Work4 from "../../assets/work4.jpg";
 import Work5 from "../../assets/work5.jpg";
+import CBSARB from "../../assets/CBSARB.jpeg";
 
 export const projectsData = [
   {
@@ -40,6 +41,13 @@ export const projectsData = [
     category: "EDA",
     demo: "https://www.google.com.ar",
   },
+  {
+    id: 6,
+    image: CBSARB,
+    title: "Cyclistic Bike-Share: Analyzing <span></span>Rider Behavior</span>",
+    category: "R",
+    demo: "https://docs.google.com/document/d/17NrTqIxvBpSK8Q5N8-mrPLrie32YUxahpCFUL-aZ_VE/edit?usp=sharing",
+  },
 ]; // Corrected closing bracket position
 
 export const projectsNav = [
@@ -47,12 +55,15 @@ export const projectsNav = [
     name: "all",
   },
   {
+    name: "R",
+  },
+  {
     name: "SQL", // Added missing closing quote and comma
   },
   {
-    name: "EDA",
+    name: "Tableau",
   },
   {
-    name: "Tableau",
+    name: "EDA",
   },
 ];
