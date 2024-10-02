@@ -10,46 +10,47 @@ export const projectsData = [
     id: 1,
     image: Work1,
     title: "Exploratory Data Analysis",
-    category: "EDA",
+    category: ["EDA"], // Changed to array
     demo: "https://www.google.com.ar",
   },
   {
     id: 2,
     image: Work2,
-    title: "Database Management", // Corrected 'App movil' to 'App mobile'
-    category: "SQL",
+    title: "Database Management",
+    category: ["SQL"], // Changed to array
     demo: "https://www.google.com.ar",
   },
   {
     id: 3,
     image: Work3,
     title: "Data Visualization",
-    category: "Tableau",
+    category: ["Tableau"], // Changed to array
     demo: "https://public.tableau.com/app/profile/saswat.seth/viz/JusttheData-WorldHappiness_17217518722200/Withtable",
   },
   {
     id: 4,
     image: Work4,
-    title: "Data Cleaning", // Fixed missing comma
-    category: "EDA",
+    title: "Data Cleaning",
+    category: ["EDA"],
     demo: "https://www.google.com.ar",
   },
   {
     id: 5,
     image: Work5,
     title: "Data Preprocessing",
-    category: "EDA",
+    category: ["EDA"],
     demo: "https://www.google.com.ar",
   },
   {
     id: 6,
     image: CBSARB,
     title: "Cyclistic Bike-Share: Analyzing <span></span>Rider Behavior</span>",
-    category: "R",
+    category: ["R", "SQL"], // Multiple categories here
     demo: "https://docs.google.com/document/d/17NrTqIxvBpSK8Q5N8-mrPLrie32YUxahpCFUL-aZ_VE/edit?usp=sharing",
   },
-]; // Corrected closing bracket position
+];
 
+// Ensure this is exported as well
 export const projectsNav = [
   {
     name: "all",
@@ -58,7 +59,7 @@ export const projectsNav = [
     name: "R",
   },
   {
-    name: "SQL", // Added missing closing quote and comma
+    name: "SQL",
   },
   {
     name: "Tableau",

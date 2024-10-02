@@ -11,12 +11,13 @@ const Works = () => {
     if (item.name === "all") {
       setProjects(projectsData);
     } else {
-      const newProjects = projectsData.filter((project) => {
-        return project.category.toLowerCase() === item.name;
-      });
+      const newProjects = projectsData.filter((project) =>
+        project.category.some((cat) => cat.toLowerCase() === item.name)
+      );
       setProjects(newProjects);
     }
   }, [item]);
+
   const handleClick = (e, index) => {
     setItem({ name: e.target.textContent.toLowerCase() });
     setActive(index);

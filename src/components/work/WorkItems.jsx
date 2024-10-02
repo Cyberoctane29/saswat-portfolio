@@ -24,7 +24,7 @@ import React from "react";
 const WorkItems = ({ item }) => {
   return (
     <div className="work__card">
-      <img src={item.image} alt="" className="work__img" />
+      <img src={item.image} alt={item.title} className="work__img" />
       <h3
         className="work__title"
         dangerouslySetInnerHTML={{ __html: item.title }}
