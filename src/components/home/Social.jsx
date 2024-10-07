@@ -22,7 +22,7 @@ const Social = () => {
         {/* Corrected from 'class' to 'className' */}
       </a>
       <a
-        href="https://x.com/cyberoctane29"
+        href="https://x.com/cyber_octane"
         className="home__social-icon"
         target="_blank"
         rel="noreferrer" // Added 'rel="noreferrer"' for security

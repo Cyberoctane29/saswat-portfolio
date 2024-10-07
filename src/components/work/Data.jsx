@@ -4,6 +4,7 @@ import Work3 from "../../assets/work3.jpg";
 import Work4 from "../../assets/work4.jpg";
 import Work5 from "../../assets/work5.jpg";
 import CBSARB from "../../assets/CBSARB.jpeg";
+import CUOMSA from "../../assets/CUOMSA.jpeg";
 
 export const projectsData = [
   {
@@ -45,8 +46,16 @@ export const projectsData = [
     id: 6,
     image: CBSARB,
     title: "Cyclistic Bike-Share: Analyzing <span></span>Rider Behavior</span>",
-    category: ["R", "SQL"], // Multiple categories here
+    category: ["R", "SQL", "EDA"], // Multiple categories here
     demo: "https://docs.google.com/document/d/17NrTqIxvBpSK8Q5N8-mrPLrie32YUxahpCFUL-aZ_VE/edit?usp=sharing",
+  },
+  {
+    id: 7,
+    image: CUOMSA,
+    title:
+      "Music Store Database Evaluation & <span></span>Optimization: On-site Internship</span>",
+    category: ["SQL"], // Multiple categories here
+    demo: "https://github.com/Cyberoctane29/CUO-On-Site-Internship--Music-Store-Database-Evaluation-and-Optimization",
   },
 ];
 
