@@ -55,7 +55,7 @@ export const projectsData = [
     title:
       "Music Store Database Evaluation & <span></span>Optimization: On-site Internship</span>",
     category: ["SQL"], // Multiple categories here
-    demo: "https://github.com/Cyberoctane29/CUO-On-Site-Internship--Music-Store-Database-Evaluation-and-Optimization",
+    demo: "https://docs.google.com/document/d/1j_x122h5V97rP2oEVJfUqmBg8A8egcP_w5gRLZGkylE/edit?usp=sharing",
   },
 ];
 
