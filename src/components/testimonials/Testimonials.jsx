@@ -27,21 +27,19 @@ const Testimonials = () => {
         }}
         breakpoints={{
           576: {
-            slidesPerView: 2,
+            slidesPerView: 1,
           },
           768: {
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 48,
           },
         }}
         modules={[Pagination, Autoplay]}
       >
-        {Data.map(({ id, image, title, description }) => {
+        {Data.map(({ id, image }) => {
           return (
             <SwiperSlide className="testimonial__card" key={id}>
-              <img src={image} alt="" className="testimonial__img" />
-              <h3 className="testimonial__name">{title}</h3>
-              <p className="testimonial__description">{description}</p>
+              <img src={image} alt="Certificate" className="testimonial__img" />
             </SwiperSlide>
           );
         })}

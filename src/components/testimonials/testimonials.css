@@ -1,29 +1,27 @@
 .testimonial__container {
-  width: 750px;
+  width: 550px;
 }
 
 .testimonial__card {
   background-color: var(--container-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 1.5rem 2rem;
-  border-radius: 1.5rem;
+  padding: 0; /* Removed padding to make room for the image */
   margin-bottom: var(--mb-3);
+  position: relative; /* To position the image inside the card */
+  overflow: hidden; /* To prevent the image from overflowing the card */
+  /* Removed border-radius to prevent rounded corners */
 }
 
 .testimonial__img {
-  width: 60px;
-  border-radius: 3rem;
-  margin-bottom: var(--mb-1);
+  width: 100%; /* Make the image span the entire width of the card */
+  height: 100%; /* Make the image cover the entire card */
+  object-fit: cover; /* Ensure the image covers the space without distorting */
+  /* Removed border-radius to prevent rounded corners */
 }
 
-.testimonial__name {
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-medium);
-  margin-bottom: var(--mb-0-25);
-}
-
+.testimonial__name,
 .testimonial__description {
-  font-size: var(--small-font-size);
+  display: none; /* Hide name and description to only show the image */
 }
 
 /* Swiper Pagination Styling */
@@ -46,11 +44,9 @@
   }
 }
 
-/* For medium devices
+/* For medium devices */
 @media screen and (max-width: 768px) {
-}
-
-@media screen and (max-width: 576px) {
+  /* Adjustments can be added here */
 }
 
 /* For small devices */
