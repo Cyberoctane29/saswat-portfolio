@@ -1,7 +1,8 @@
-import Image1 from "../../assets/Certficates/Saswat_Seth_Google_Data_Analytics_page-0001.jpg";
-import Image2 from "../../assets/Certficates/Saswat_Seth_Analyze_Data_To_Answer_Questions_page-0001 (1).jpg";
+import Image1 from "../../assets/Certficates/Saswat Seth_SQL-internship_Cental_University_of_Odisha,Koraput_C.V. Raman Global University_page-0001.jpg";
+import Image2 from "../../assets/Certficates/Saswat_Seth_Google_Data_Analytics_page-0001.jpg";
 import Image3 from "../../assets/Certficates/GoogleAIEssentials_Badge_page-0001 (3).jpg";
 import Image4 from "../../assets/Certficates/UC-9c3d7b43-2498-42a2-9156-98c133083bbe.jpg"; // Added your certificate image
+import Image5 from "../../assets/Certficates/Saswat_Seth_Analyze_Data_To_Answer_Questions_page-0001 (1).jpg"; // Added your certificate image
 
 export const Data = [
   {
@@ -19,6 +20,10 @@ export const Data = [
   {
     id: 4,
     image: Image4,
+  },
+  {
+    id: 5,
+    image: Image5,
   },
   // Add more testimonials as needed
 ];
