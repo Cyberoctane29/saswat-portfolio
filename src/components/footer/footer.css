@@ -43,6 +43,10 @@
   display: inline-flex;
 }
 
+.kaggle-icon {
+  padding-left: 8px;
+}
+
 .footer__social-link:hover {
   background-color: var(--title-color-dark);
 }

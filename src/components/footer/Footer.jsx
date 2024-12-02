@@ -44,7 +44,7 @@ const Footer = () => {
           </a>
           <a
             href="https://www.kaggle.com/saswatsethda"
-            className="footer__social-link"
+            className="footer__social-link kaggle-icon"
             target="_blank"
             rel="noreferrer"
           >

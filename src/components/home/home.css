@@ -20,6 +20,10 @@
   color: var(--title-color);
 }
 
+.kaggle-icon-social {
+  margin-left: 4px;
+}
+
 .home__social-icon:hover {
   color: var(--title-color-dark);
 }

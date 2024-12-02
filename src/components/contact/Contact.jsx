@@ -1,6 +1,8 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./contact.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSkype } from "@fortawesome/free-brands-svg-icons";
 
 const Contact = () => {
   const form = useRef();
@@ -57,11 +59,16 @@ const Contact = () => {
             </div>
 
             <div className="contact__card">
-              <i className="contact__card-icon bx bxl-twitter"></i>
-              <h3 className="contact__card-title">Twitter</h3>
-              <span className="contact__card-data">cyberoctane29</span>
+              <FontAwesomeIcon className="contact__card-icon" icon={faSkype} />
+              <h3 className="contact__card-title">Skype</h3>
+              <span className="contact__card-data">
+                saswatseth.work@gmail.com
+              </span>
+              <span className="contact__card-data">
+                live:.cid.4bbb301e8e36333d
+              </span>
               <a
-                href="https://x.com/cyberoctane29"
+                href="https://join.skype.com/invite/r9YkKVjdA3Jr"
                 className="contact__button"
                 target="_blank"
                 rel="noreferrer"

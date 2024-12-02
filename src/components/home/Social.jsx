@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faKaggle } from "@fortawesome/free-brands-svg-icons";
 
 const Social = () => {
   return (
@@ -22,13 +24,12 @@ const Social = () => {
         {/* Corrected from 'class' to 'className' */}
       </a>
       <a
-        href="https://x.com/cyber_octane"
-        className="home__social-icon"
+        href="https://www.kaggle.com/saswatsethda"
+        className="home__social-icon kaggle-icon-social"
         target="_blank"
         rel="noreferrer" // Added 'rel="noreferrer"' for security
       >
-        <i className="uil uil-twitter-alt"></i>{" "}
-        {/* Corrected from 'class' to 'className' */}
+        <FontAwesomeIcon icon={faKaggle} />
       </a>
     </div>
   );
