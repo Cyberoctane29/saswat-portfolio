@@ -109,7 +109,7 @@ const Qualification = () => {
                 <h3 className="qualification__title">
                   Database and SQL Intern(On-Site)
                 </h3>
-                <span className="qualification__subtitle">CUET-Koraput</span>
+                <span className="qualification__subtitle">CUO-Koraput</span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i>
                   03/2023-04/2023
