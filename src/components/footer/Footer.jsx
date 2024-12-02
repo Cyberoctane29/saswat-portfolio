@@ -19,7 +19,7 @@ const Footer = () => {
           </li>
           <li>
             <a href="#credentials" className="footer__link">
-              Testimonials
+              Credentials
             </a>
           </li>
         </ul>
@@ -41,7 +41,7 @@ const Footer = () => {
             <i className="bx bxl-linkedin"></i>
           </a>
           <a
-            href="https://x.com/cyberoctane29"
+            href="https://www.kaggle.com/saswatsethda"
             className="footer__social-link"
             target="_blank"
             rel="noreferrer"
