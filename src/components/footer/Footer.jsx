@@ -1,5 +1,7 @@
 import React from "react";
 import "./footer.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faKaggle } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
@@ -19,7 +21,7 @@ const Footer = () => {
           </li>
           <li>
             <a href="#credentials" className="footer__link">
-              Credentials
+              Testimonials
             </a>
           </li>
         </ul>
@@ -46,7 +48,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <i className="bx bxl-twitter"></i>
+            <FontAwesomeIcon icon={faKaggle} />
           </a>
         </div>
         <span className="footer__copy">
