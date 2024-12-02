@@ -106,7 +106,9 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">SQL Intern(On-Site)</h3>
+                <h3 className="qualification__title">
+                  Database and SQL Intern(On-Site)
+                </h3>
                 <span className="qualification__subtitle">CUET-Koraput</span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i>
